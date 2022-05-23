@@ -1,0 +1,27 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c7e80c26bc54498bb784d2477084cf84 --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_4 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Test_CPU_behav xil_defaultlib.Test_CPU xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'LED' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_CPU.v:28]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 3 for port 'ALU_OP' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:40]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 5 for port 'R_Addr_A' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:42]
+WARNING: [VRFC 10-5021] port 'wea' is not connected on this instance [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:27]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.PC
+Compiling module xil_defaultlib.ALU_NEW
+Compiling module xil_defaultlib.LED
+Compiling module xil_defaultlib.Register
+Compiling module xil_defaultlib.CPU
+Compiling module xil_defaultlib.Test_CPU
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Test_CPU_behav

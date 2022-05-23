@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Mon May 23 09:03:33 2022
+# Process ID: 130388
+# Current directory: W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/RAM_synth_1
+# Command line: vivado.exe -log RAM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM.tcl
+# Log file: W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/RAM_synth_1/RAM.vds
+# Journal file: W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/RAM_synth_1\vivado.jou
+#-----------------------------------------------------------
+source RAM.tcl -notrace

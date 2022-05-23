@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_ALU.v,1653315151,verilog,,,,Test_ALU,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_CPU.v,1653319393,verilog,,,,Test_CPU,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_LED.v,1653315702,verilog,,,,Test_LED,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_PC.v,1653313242,verilog,,,,Test_PC,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_Register.v,1653312693,verilog,,,,Test_Register,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/ip/RAM/sim/RAM.v,1653267803,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v,,RAM,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v,1653279971,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v,,ALU_NEW,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v,1653319325,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/LED.v,,CPU,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/LED.v,1653276075,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v,,LED,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v,1653268036,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/Register.v,,PC,,,,,,,,
+W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/Register.v,1653312827,verilog,,W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_CPU.v,,Register,,,,,,,,
