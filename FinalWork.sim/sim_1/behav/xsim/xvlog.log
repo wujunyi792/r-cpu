@@ -1,20 +1,2 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module RAM
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module ALU_NEW
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module CPU
-INFO: [VRFC 10-2458] undeclared symbol OPCode, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:33]
-INFO: [VRFC 10-2458] undeclared symbol RS, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:34]
-INFO: [VRFC 10-2458] undeclared symbol RT, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:35]
-INFO: [VRFC 10-2458] undeclared symbol RD, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:36]
-INFO: [VRFC 10-2458] undeclared symbol Shamt, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:37]
-INFO: [VRFC 10-2458] undeclared symbol Func, assumed default net type wire [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:38]
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/LED.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module LED
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module PC
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/Register.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Register
-INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_CPU.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Test_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sim_1/new/Test_SIM_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Test_SIM_CPU

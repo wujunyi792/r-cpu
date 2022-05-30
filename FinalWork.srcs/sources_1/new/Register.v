@@ -31,8 +31,8 @@ module Register(R_Data_A,R_Data_B,W_Data,R_Addr_A,R_Addr_B,W_Addr,Write_Reg,rese
     output [31:0]R_Data_B;//B端口读出数据
 	integer i;
 	reg [31:0] REG_Files[0:31];//定义寄存器
-	initial REG_Files[0]<=32'hF0F0F0F0;
-	initial REG_Files[1]<=32'h00000004;
+//	initial REG_Files[0]<=32'hF0F0F0F0;
+//	initial REG_Files[1]<=32'h00000004;
     initial//将全部寄存器初始化为0
         for(i=2;i<32;i=i+1) 
             REG_Files[i]<=0;

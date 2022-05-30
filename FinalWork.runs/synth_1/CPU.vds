@@ -2,8 +2,8 @@
 # Vivado v2020.1 (64-bit)
 # SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
 # IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Mon May 23 12:29:00 2022
-# Process ID: 101944
+# Start of session at: Tue May 24 01:56:20 2022
+# Process ID: 151968
 # Current directory: W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1
 # Command line: vivado.exe -log CPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CPU.tcl
 # Log file: W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/CPU.vds
@@ -17,49 +17,40 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tfgg484-2L
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 146896
+INFO: [Synth 8-7075] Helper process launched with PID 155148
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1018.375 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1022.113 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'CPU' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:23]
 INFO: [Synth 8-6157] synthesizing module 'PC' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:23]
-INFO: [Synth 8-6157] synthesizing module 'RAM' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/.Xil/Vivado-101944-thinkbook/realtime/RAM_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'RAM' (1#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/.Xil/Vivado-101944-thinkbook/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/.Xil/Vivado-151968-thinkbook/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (1#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/.Xil/Vivado-151968-thinkbook/realtime/RAM_stub.v:6]
 WARNING: [Synth 8-7071] port 'wea' of module 'RAM' is unconnected for instance 'ram' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:27]
 WARNING: [Synth 8-7071] port 'dina' of module 'RAM' is unconnected for instance 'ram' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:27]
 WARNING: [Synth 8-7023] instance 'ram' of module 'RAM' has 5 connections declared, but only 3 given [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:27]
 INFO: [Synth 8-6155] done synthesizing module 'PC' (2#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/PC.v:23]
 INFO: [Synth 8-6157] synthesizing module 'ALU_NEW' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'ALU_NEW' (3#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v:23]
+WARNING: [Synth 8-689] width (4) of port connection 'ALU_OP' does not match port width (3) of module 'ALU_NEW' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:46]
 INFO: [Synth 8-6157] synthesizing module 'LED' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/LED.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'LED' (4#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/LED.v:23]
 INFO: [Synth 8-6157] synthesizing module 'Register' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/Register.v:22]
 INFO: [Synth 8-6155] done synthesizing module 'Register' (5#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/Register.v:22]
-WARNING: [Synth 8-7071] port 'clk' of module 'Register' is unconnected for instance 'register' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:40]
-WARNING: [Synth 8-7023] instance 'register' of module 'Register' has 9 connections declared, but only 8 given [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:40]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:50]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:51]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:52]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:53]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:54]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:55]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:56]
-WARNING: [Synth 8-6090] variable 'OP' is written by both blocking and non-blocking assignments, entire logic could be removed [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:57]
-INFO: [Synth 8-155] case statement is not full and has no default [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:49]
+INFO: [Synth 8-155] case statement is not full and has no default [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:57]
 INFO: [Synth 8-6155] done synthesizing module 'CPU' (6#1) [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/CPU.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1018.375 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1022.113 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.375 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1022.113 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1018.375 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1022.113 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1018.375 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1022.113 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -74,31 +65,31 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/CPU_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1027.121 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1026.258 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1027.121 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.019 . Memory (MB): peak = 1026.258 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tfgg484-2L
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for pc/ram. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-327] inferring latch for variable 'OUT_reg' [W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.srcs/sources_1/new/ALU_NEW.v:35]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -116,6 +107,8 @@ Detailed RTL Component Info :
 	               32 Bit    Registers := 33    
 +---Muxes : 
 	   2 Input   32 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   9 Input    3 Bit        Muxes := 1     
 	   8 Input    1 Bit        Muxes := 1     
 	   2 Input    1 Bit        Muxes := 33    
 ---------------------------------------------------------------------------------
@@ -134,25 +127,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:01:01 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:05 ; elapsed = 00:01:08 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Timing Optimization : Time (s): cpu = 00:01:10 ; elapsed = 00:01:13 . Memory (MB): peak = 1026.258 ; gain = 4.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1027.121 ; gain = 8.746
+Finished Technology Mapping : Time (s): cpu = 00:01:15 ; elapsed = 00:01:18 . Memory (MB): peak = 1059.422 ; gain = 37.309
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -203,37 +196,37 @@ CRITICAL WARNING: [Synth 8-4442] BlackBox module \pc/ram  has unconnected pin di
 CRITICAL WARNING: [Synth 8-4442] BlackBox module \pc/ram  has unconnected pin dina[1]
 CRITICAL WARNING: [Synth 8-4442] BlackBox module \pc/ram  has unconnected pin dina[0]
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished IO Insertion : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -247,39 +240,45 @@ Report BlackBoxes:
 +------+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |RAM  |     1|
-|2     |BUFG |     1|
-|3     |LUT1 |     2|
-|4     |LUT2 |     1|
-|5     |LUT3 |     1|
-|6     |LUT4 |     1|
-|7     |LUT5 |     1|
-|8     |LUT6 |     1|
-|9     |FDCE |     6|
-|10    |IBUF |     3|
-|11    |OBUF |    32|
-+------+-----+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |RAM    |     1|
+|2     |BUFG   |     1|
+|3     |CARRY4 |    22|
+|4     |LUT1   |    35|
+|5     |LUT2   |   133|
+|6     |LUT3   |    21|
+|7     |LUT4   |    62|
+|8     |LUT5   |    60|
+|9     |LUT6   |   740|
+|10    |MUXF7  |   256|
+|11    |MUXF8  |     4|
+|12    |FDCE   |  1030|
+|13    |IBUF   |     3|
+|14    |OBUF   |    32|
++------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 33 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 1029.320 ; gain = 2.199
-Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 1029.320 ; gain = 10.945
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:10 ; elapsed = 00:01:19 . Memory (MB): peak = 1064.875 ; gain = 38.617
+Synthesis Optimization Complete : Time (s): cpu = 00:01:18 ; elapsed = 00:01:21 . Memory (MB): peak = 1064.875 ; gain = 42.762
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1029.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1064.875 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 282 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'CPU' is not ideal for floorplanning, since the cellview 'Register' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1041.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1064.875 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-26 Infos, 16 Warnings, 33 Critical Warnings and 0 Errors encountered.
+28 Infos, 8 Warnings, 33 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:32 . Memory (MB): peak = 1041.668 ; gain = 23.293
+synth_design: Time (s): cpu = 00:01:23 ; elapsed = 00:01:29 . Memory (MB): peak = 1064.875 ; gain = 42.762
 INFO: [Common 17-1381] The checkpoint 'W:/home/wujunyi/ISE_wordplace/FinalWork/FinalWork.runs/synth_1/CPU.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file CPU_utilization_synth.rpt -pb CPU_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon May 23 12:29:41 2022...
+INFO: [Common 17-206] Exiting Vivado at Tue May 24 01:57:58 2022...
